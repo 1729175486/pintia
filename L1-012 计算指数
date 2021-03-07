@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int n,b = 1;
+		Scanner sca=new Scanner(System.in);
+		n=sca.nextInt();
+		for(int i=1;i<=n;i++) {
+			b*=2;
+		}
+		System.out.println("2^"+n+" = "+b);
+	}
+}
