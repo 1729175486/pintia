@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+    	Scanner sca=new Scanner(System.in);
+    	int a,b;
+    	double res = 0;
+    	a=sca.nextInt();
+    	b=sca.nextInt();
+    	
+    	for(int i=1;i<=9;i++) {
+    		if(i==b) {
+    			res=a*b*.1;
+    		}
+    	}
+    	
+    	System.out.println(String.format("%.2f", res));
+    }
+}
